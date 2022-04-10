@@ -801,8 +801,8 @@ opacity: 1;
     transition: fill var(--timing-duration) var(--timing-function);
   }
 
-    .modal-icon-close:hover,
-    .modal-icon-close:focus {
+    .modal-close-btn:hover .modal-icon-close,
+    .modal-close-btn:focus .modal-icon-close {
       fill: var(--accent-color);
     }
 
