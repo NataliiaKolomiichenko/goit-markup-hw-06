@@ -912,9 +912,6 @@ opacity: 1;
     }
 
     .modal-form-agreement {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       margin-bottom: 30px;
       margin-left: auto;
       font-size: 14px;
@@ -922,6 +919,12 @@ opacity: 1;
       letter-spacing: 0.03em;
       color: var(--primary-text-color);
     }
+    .agreement-checkbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .agreement-checkbox::before {
       display: inline-block;
       content: '';
