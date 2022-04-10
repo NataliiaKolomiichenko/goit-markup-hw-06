@@ -895,6 +895,8 @@ opacity: 1;
       letter-spacing: 0.06em;
       
       color: #FFFFFF;
+
+      cursor: pointer;
     }
 
     .modal-input-container {
