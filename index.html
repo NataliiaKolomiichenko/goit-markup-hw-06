@@ -480,7 +480,7 @@
               class="form-subscription"
               autocomplete="off"
             >
-              <label>
+              <label class="subscription-label">
                 <input
                   type="email"
                   name="subscription-email"
@@ -506,30 +506,30 @@
         <form action="javascript:void(0);" class="modal-form">
           <label class="modal-form-label">
             Имя
-            <div class="modal-input-container">
+            <span class="modal-input-container">
               <input type="text" name="username" class="modal-form-input" />
               <svg class="modal-form-icon" height="18" width="18">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
-            </div>
+            </span>
           </label>
           <label class="modal-form-label">
             Телефон
-            <div class="modal-input-container">
+            <span class="modal-input-container">
               <input type="tel" name="tel" class="modal-form-input" />
               <svg class="modal-form-icon" height="18" width="18">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-            </div>
+            </span>
           </label>
           <label class="modal-form-label">
             Почта
-            <div class="modal-input-container">
+            <span class="modal-input-container">
               <input type="email" name="email" class="modal-form-input" />
               <svg class="modal-form-icon" height="18" width="18">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
-            </div>
+            </span>
           </label>
           <label class="modal-form-label">
             Комментарий
@@ -549,7 +549,9 @@
               class="modal-form-agreement-checkbox visually-hidden"
             />
             <label for="agreement-checkbox" class="agreement-checkbox"
-              >Соглашаюсь с рассылкой и принимаю&#160;<a href=""
+              >Соглашаюсь с рассылкой и принимаю&#160;<a
+                href=""
+                class="agreement"
                 >Условия договора
               </a></label
             >
